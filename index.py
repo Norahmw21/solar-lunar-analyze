@@ -2,7 +2,7 @@ import streamlit as st
 import geopandas as gpd
 import pandas as pd
 from solar_analysis import load_solar_data
-from lunar_analysis import load_lunar_data  # ✅ Import lunar data loader
+from lunar_analysis import load_lunar_data 
 
 st.set_page_config(page_title="Eclipse Explorer", layout="wide")
 
